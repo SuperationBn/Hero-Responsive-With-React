@@ -4,7 +4,7 @@
 }
 
 .flex-hero {
-  padding: 6rem 3rem;
+  padding: 15rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,17 +16,18 @@
 
 .spam {
   font-size: 1.5rem;
+  color: rgb(114, 201, 230);
 }
 
 .title {
   font-size: 6rem;
-
+  color: aliceblue;
 }
 
 .paraf {
   font-size: 1.8rem;
   margin: 2rem 0rem;
-  color: rgba(0, 0, 0, 0.796);
+  color: rgba(247, 247, 247, 0.796);
   width: 90%;
   font-weight: 600;
 }

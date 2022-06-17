@@ -1,7 +1,7 @@
 .Header {
   max-width: 1200px;
   margin-inline: auto;
-  background-color: cornflowerblue;
+  background-color: rgb(89, 116, 165);
 }
 
 .flexSectionNavbar {
@@ -26,7 +26,11 @@
 
 .flexSectionNavbar .Links {
   font-size: 2rem;
-  color: rgba(240, 248, 255, 0.909);
+  color: rgba(240, 248, 255, 0.811);
+}
+
+.flexSectionNavbar .Links:hover {
+  color: white;
 }
 
 .btn-icons {
