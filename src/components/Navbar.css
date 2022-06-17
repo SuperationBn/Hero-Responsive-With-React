@@ -1,0 +1,63 @@
+.Header {
+  max-width: 1200px;
+  margin-inline: auto;
+  background-color: cornflowerblue;
+}
+
+.flexSectionNavbar {
+  position: relative;
+  width: inherit;
+  padding: 1em 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexSectionNavbar .logo {
+  font-size: 4rem;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.flexSectionNavbar .menu {
+  display: flex;
+  gap: 3rem;
+}
+
+.flexSectionNavbar .Links {
+  font-size: 2rem;
+  color: rgba(240, 248, 255, 0.909);
+}
+
+.btn-icons {
+  cursor: pointer;
+  display: none;
+}
+
+.btn-icons i {
+  font-size: 2.9rem;
+  color: aliceblue;
+}
+
+.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+}
+
+@media (max-width: 768px) {
+  .flexSectionNavbar .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 5rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .btn-icons {
+    display: inline-block;
+  }
+}
